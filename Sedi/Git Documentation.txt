@@ -1,0 +1,12 @@
+
+
+
+git clone 'url'//this creates a local copy of the github data and puts it in the current folder you are navigated to.
+
+git add 'file'  //this can be a folder or specific file type.
+git commit -m "Comment must be included" // this is prepping the commit you must push it to upload it to github
+git push -u origin master // this will push data
+
+git pull origin master // If you are in the correct 'master' folder in MINGW64 this will update your local files to match githubs.
+
+git status // this will tell you if you need to upload changes
